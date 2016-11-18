@@ -31,7 +31,7 @@ namespace PT.EssentialMVVM
         /// Initializes a new instance of the <see cref="ViewModelCommand"/> class. 
         /// </summary>
         /// <remarks>The command can always be executed</remarks>
-        /// <param name="execute">The action for the Command to Execute</param>
+        /// <param name="execute">The Action for the Command to Execute</param>
         public ViewModelCommand(Action execute) 
             : this(execute, null)
         {
@@ -41,7 +41,7 @@ namespace PT.EssentialMVVM
         /// <summary>
         /// Initializes a new instance of the <see cref="ViewModelCommand"/> class.
         /// </summary>
-        /// <param name="command">The action for the Command to Execute</param>
+        /// <param name="command">The Action for the Command to Execute</param>
         /// <param name="canExecute">A function that determines whether the Command can be Executed</param>
         public ViewModelCommand(Action command, Func<bool> canExecute)
         {

@@ -22,7 +22,7 @@ namespace PT.EssentialMVVM
         public event PropertyChangedEventHandler PropertyChanged;
 
         /// <summary>
-        /// Raise Property Changed Event
+        /// Trigger the Property Changed Event
         /// </summary>
         /// <param name="propertyName">Name of Property that has Changed</param>
         public void RaisePropertyChanged(string propertyName)
