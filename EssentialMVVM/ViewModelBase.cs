@@ -11,8 +11,8 @@ using System;
 namespace PT.EssentialMVVM
 {
     /// <summary>
-    /// <see cref="ViewModelBase"/> Class is an extension of the <see cref="ObservableObjectBase"/> class
-    /// to be used as a BaseClass for ViewModels
+    /// An extension of the <see cref="ObservableObjectBase"/> class to be used as a 
+    /// base class for ViewModels.
     /// </summary>
     public abstract class ViewModelBase : ObservableObjectBase
     {
@@ -21,7 +21,7 @@ namespace PT.EssentialMVVM
         /// <summary>
         /// Invoke Code on the Main Thread
         /// </summary>
-        /// <param name="action">Code to Execute</param>
+        /// <param name="action">Action to Execute on the Main Thread</param>
         public void InvokeOnMainThread(Action action)
         {
             ThreadHelper.InvokeOnMainThread(action);

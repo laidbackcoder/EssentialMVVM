@@ -12,8 +12,8 @@ using System.Windows.Input;
 namespace PT.EssentialMVVM
 {
     /// <summary>
-    /// An implementation of ICommand that can be initialized in a ViewModel for
-    /// execution, through binding, by a Control in a View.
+    /// An implementation of the <see cref="ICommand"/> interface that can be initialized 
+    /// in a ViewModel for execution, through binding, by a Control in a View.
     /// </summary>
     public class ViewModelCommand : ICommand
     {
@@ -31,7 +31,7 @@ namespace PT.EssentialMVVM
         /// Initializes a new instance of the <see cref="ViewModelCommand"/> class. 
         /// </summary>
         /// <remarks>The command can always be executed</remarks>
-        /// <param name="execute">The command to Execute</param>
+        /// <param name="execute">The action for the Command to Execute</param>
         public ViewModelCommand(Action execute) 
             : this(execute, null)
         {
@@ -41,7 +41,7 @@ namespace PT.EssentialMVVM
         /// <summary>
         /// Initializes a new instance of the <see cref="ViewModelCommand"/> class.
         /// </summary>
-        /// <param name="command">The command to Execute</param>
+        /// <param name="command">The action for the Command to Execute</param>
         /// <param name="canExecute">A function that determines whether the Command can be Executed</param>
         public ViewModelCommand(Action command, Func<bool> canExecute)
         {
@@ -83,7 +83,7 @@ namespace PT.EssentialMVVM
             }
 
             /// <summary>
-            /// Used by the command to determine whether the Command can be Executed
+            /// Determine if the Command can be Executed
             /// </summary>
             /// <param name="parameter">object used by the command</param>
             /// <remarks>If null is passed, the return value will be true</remarks>

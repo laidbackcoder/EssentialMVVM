@@ -13,14 +13,14 @@ using System.Windows.Threading;
 namespace PT.EssentialMVVM
 {
     /// <summary>
-    /// <see cref="ThreadHelper"/> static class.
+    /// A static class to provide helper functions for working with threads.
     /// </summary>
     public static class ThreadHelper
     {
         /// <summary>
         /// Invoke Code on the Main Thread
         /// </summary>
-        /// <param name="action">Code to Execute</param>
+        /// <param name="action">Action to Execute on the Main Thread</param>
         public static void InvokeOnMainThread(Action action)
         {
             // Checks the application's instance of AppDomain is initialized

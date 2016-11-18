@@ -11,8 +11,8 @@ using System.ComponentModel;
 namespace PT.EssentialMVVM
 {
     /// <summary>
-    /// The <see cref="ObservableObjectBase"/> Class is a basic implementation of the INotifyPropertyChanged 
-    /// interface to be used as a base class for Models
+    /// A basic implementation of the <see cref="INotifyPropertyChanged"/> interface to be used 
+    /// as a base class for Models.
     /// </summary>
     public abstract class ObservableObjectBase : INotifyPropertyChanged
     {
