@@ -1,4 +1,4 @@
-# Project Description 
+## EssentialMVVM 
 
 EssentialMVVM is a lightweight  Model-View-ViewModel (MVVM) framework for WPF. 
 
