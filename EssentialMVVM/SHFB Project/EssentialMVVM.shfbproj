@@ -14,7 +14,7 @@
     <Name>Documentation</Name>
     <!-- SHFB properties -->
     <FrameworkVersion>.NET Framework 4.0</FrameworkVersion>
-    <OutputPath>Help\</OutputPath>
+    <OutputPath>..\bin\Release\Help\</OutputPath>
     <HtmlHelpName>EssentialMVVM Documentation</HtmlHelpName>
     <Language>en-US</Language>
     <DocumentationSources>
@@ -41,7 +41,8 @@
     <ContentPlacement>AboveNamespaces</ContentPlacement>
     <NamespaceSummaries>
       <NamespaceSummaryItem name="(global)" isDocumented="True" />
-<NamespaceSummaryItem name="PT.EssentialMVVM" isDocumented="True">The PT.EssentialMVVM Namespace includes the entire EssentialMVVM framework.</NamespaceSummaryItem></NamespaceSummaries>
+      <NamespaceSummaryItem name="PT.EssentialMVVM" isDocumented="True">The PT.EssentialMVVM Namespace includes the entire EssentialMVVM framework.</NamespaceSummaryItem>
+    </NamespaceSummaries>
     <VisibleItems>InheritedMembers, Protected, ProtectedInternalAsProtected, EditorBrowsableNever, NonBrowsable</VisibleItems>
     <ProjectSummary>&amp;lt%3bp&amp;gt%3bEssentialMVVM is a lightweight Model-View-ViewModel %28MVVM%29 framework for WPF&amp;lt%3b/p&amp;gt%3b
 &amp;lt%3bp&amp;gt%3b&amp;lt%3ba href=&amp;quot%3bhttps://github.com/laidbackcoder/EssentialMVVM&amp;quot%3b&amp;gt%3bhttps://github.com/laidbackcoder/EssentialMVVM&amp;lt%3b/a&amp;gt%3b&amp;lt%3b/p&amp;gt%3b
@@ -64,6 +65,7 @@
     <SourceCodeBasePath>
     </SourceCodeBasePath>
     <WarnOnMissingSourceContext>False</WarnOnMissingSourceContext>
+    <WorkingPath>..\bin\Release\Help\temp\</WorkingPath>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
 			 the build.  The others are optional common platform types that may appear. -->
