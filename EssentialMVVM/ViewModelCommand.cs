@@ -1,10 +1,10 @@
 ﻿// <summary>
 // Project Name         :   EssentialMVVM
 // Project Description  :   A lightweight Model-View-ViewModel (MVVM) framework for WPF
-// Project Website      :   https://essentialmvvm.codeplex.com
+// Project Website      :   https://github.com/laidbackcoder/EssentialMVVM
 // Developer            :   Phil Tyler (http://www.laidbackcoder.co.uk)
 // License              :   GNU Lesser General Public License (LGPL)
-// License URL          :   https://essentialmvvm.codeplex.com/license
+// License URL          :   https://github.com/laidbackcoder/EssentialMVVM/blob/master/LICENSE
 // </summary>
 using System;
 using System.Windows.Input;

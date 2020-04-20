@@ -1,4 +1,4 @@
-﻿https://essentialmvvm.codeplex.com/license
+﻿https://github.com/laidbackcoder/EssentialMVVM/blob/master/LICENSE
 
 GNU Lesser General Public License (LGPL)
 
