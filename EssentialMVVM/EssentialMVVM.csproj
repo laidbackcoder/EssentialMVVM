@@ -58,6 +58,7 @@
     </Content>
     <Content Include="SHFB Project\EssentialMVVM.shfbproj" />
     <Content Include="SHFB Project\icons\EssentialMVVM.png" />
+    <Content Include="SHFB Project\UnblockFile.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
