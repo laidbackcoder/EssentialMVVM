@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EssentialMVVM", "EssentialMVVM\EssentialMVVM.csproj", "{C8EAD5A2-14AB-4531-905D-B2D4EDD3E598}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EssentialMVVM.Tests", "EssentialMVVM.Tests\EssentialMVVM.Tests.csproj", "{D6A3D4F1-DCEC-4C6D-B918-F664F46D1320}"
+EndProject
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "EssentialMVVM.HelpFile", "EssentialMVVM.HelpFile\EssentialMVVM.HelpFile.shfbproj", "{8FD1A336-1D72-4B07-A507-53EB983570FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +19,19 @@ Global
 		{C8EAD5A2-14AB-4531-905D-B2D4EDD3E598}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8EAD5A2-14AB-4531-905D-B2D4EDD3E598}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8EAD5A2-14AB-4531-905D-B2D4EDD3E598}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6A3D4F1-DCEC-4C6D-B918-F664F46D1320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6A3D4F1-DCEC-4C6D-B918-F664F46D1320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6A3D4F1-DCEC-4C6D-B918-F664F46D1320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6A3D4F1-DCEC-4C6D-B918-F664F46D1320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FD1A336-1D72-4B07-A507-53EB983570FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FD1A336-1D72-4B07-A507-53EB983570FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FD1A336-1D72-4B07-A507-53EB983570FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FD1A336-1D72-4B07-A507-53EB983570FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54E1267D-F240-4EB4-96C5-EABE3204009E}
 	EndGlobalSection
 EndGlobal
