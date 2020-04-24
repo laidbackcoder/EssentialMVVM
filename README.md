@@ -1,4 +1,4 @@
-![alt text](https://raw.githubusercontent.com/laidbackcoder/EssentialMVVM/master/EssentialMVVM/SHFB%20Project/icons/EssentialMVVM.png "EssentialMVVM Logo1")
+![alt text](https://raw.githubusercontent.com/laidbackcoder/EssentialMVVM/master/Wiki%20Files/EssentialMVVM.png "EssentialMVVM Logo1")
 
 ## Welcome to the 'EssentialMVVM' Project
 
